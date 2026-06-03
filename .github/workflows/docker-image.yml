@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: soroar42/broadgame11:${{ github.sha }}
+          tags: soroar42/broadgame11:${{ github.ref_name }}
